@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "parameters": {
+    "parLandingZoneMgChildren": {
+      "value": []
+    },
+    "parDiagnosticSettingsName": {
+      "value": "toLa"
+    },
+    "parTopLevelManagementGroupSuffix": {
+      "value": ""
+    },
+    "parPlatformMgAlzDefaultsEnable": {
+      "value": true
+    },
+    "parLandingZoneMgAlzDefaultsEnable": {
+      "value": true
+    },
+    "parLandingZoneMgConfidentialEnable": {
+      "value": false
+    },
+    "parTelemetryOptOut": {
+      "value": false
+    },
+    "parTopLevelManagementGroupPrefix": {
+      "value": "alz2"
+    },
+    "parPlatformMgChildren": {
+      "value": []
+    },
+    "parLogAnalyticsWorkspaceResourceId": {
+      "value": "/subscriptions/eaa25043-05d8-4320-a858-ae0c551b3ccb/resourcegroups/rg-alz2-logging/providers/microsoft.operationalinsights/workspaces/alz-log-analytics"
+    }
+  },
+  "contentVersion": "1.0.0.0"
+}
