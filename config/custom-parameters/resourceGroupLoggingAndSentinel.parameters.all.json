@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "parameters": {
+    "parTags": {
+      "value": {
+        "Environment": "live"
+      }
+    },
+    "parTelemetryOptOut": {
+      "value": false
+    },
+    "parLocation": {
+      "value": "australiaeast"
+    },
+    "parResourceGroupName": {
+      "value": "rg-alz2-logging"
+    },
+    "parResourceLockConfig": {
+      "value": {
+        "notes": "This lock was created by the ALZ Bicep resourceGroup Module",
+        "kind": "None"
+      }
+    }
+  },
+  "contentVersion": "1.0.0.0"
+}
